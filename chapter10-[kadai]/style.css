@@ -23,6 +23,9 @@ main{
   position: relative;
   border: 1px solid #eee;
 }
+.step-box:last-child{
+  margin-right: 0;
+}
 
 .step-img1{
   height: 150px;
@@ -64,7 +67,7 @@ main{
   main {
     float: none;
     width: 100%;
-    margin: 50px 4%;
+    margin: 50px 5%;
   }
   .step-box {
     float: none;
@@ -76,9 +79,8 @@ main{
   .step-num {
     font-size: 25px;
   }
-
   .step-box:last-child{
-    margin-right: 4%;
+    margin-right: 30px;
   }
   .step-img1 {
     height: 260px;
